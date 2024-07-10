@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Мгновение</title>
+  
+  
+  <link rel="icon" href="./assets/images/icon.png" type="image/png" sizes="32x32">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body id="top">
+
+  <!-- header -->
+ 
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Распродажа летней коллекции скидки до 50%</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Найти товар" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/name.png" width="179" height="26" alt="Moment">
+        </a>
+
+        <div class="header-actions">
+
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="favourite item">
+            <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <button class="header-action-btn" aria-label="cart item">
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link has-after">Главная</a>
+            </li>
+
+            <li>
+              <a href="#collection" class="navbar-link has-after">Новая коллекция</a>
+            </li>
+
+            <li>
+              <a href="#shop" class="navbar-link has-after">К покупкам</a>
+            </li>
+
+            <li>
+              <a href="#feature" class="navbar-link" data-nav-link>Концепция</a>
+            </li>
+    
+            <li>
+              <a href="#footer" class="navbar-link" data-nav-link>Контакты</a>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <!-- mobile navbar -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="Moment">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Главная</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Коллекции</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>К покупкам</a>
+        </li>
+
+        <li>
+          <a href="#feature" class="navbar-link" data-nav-link>Концепция</a>
+        </li>
+
+        <li>
+          <a href="#footer" class="navbar-link" data-nav-link>Контакты</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- #hero  -->
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+      
+          <div class="swiper-container hero-swiper">
+            <div class="swiper-wrapper">
+      
+              <div class="swiper-slide">
+                <div class="hero-card has-bg-image" style="background-image: url('./assets/images/2st.jpg')">
+                  <div class="card-content">
+                    <h1 class="h1 hero-title">
+                      Обними мир <br>
+                      Своим стилем
+                    </h1>
+                    <p class="hero-text">
+                      Оставляйте незабываемые впечатления своими уникальными образами из натуральных тканей.
+                    </p>
+                    <p class="price">Соверши революцию в гардеробе прямо сейчас</p>
+                    <a href="#" class="btn btn-primary">К покупкам</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="hero-card has-bg-image" style="background-image: url('./assets/images/1st.jpg')">
+                  <div class="card-content">
+                    <h1 class="h1 hero-title">
+                      Обними мир <br>
+                      Своим стилем
+                    </h1>
+                    <p class="hero-text">
+                      Оставляйте незабываемые впечатления своими уникальными образами из натуральных тканей.
+                    </p>
+                    <p class="price">Соверши революцию в гардеробе прямо сейчас</p>
+                    <a href="#" class="btn btn-primary">К покупкам</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="hero-card has-bg-image" style="background-image: url('./assets/images/3st.jpg')">
+                  <div class="card-content">
+                    <h1 class="h1 hero-title">
+                      Обними мир <br>
+                      Своим стилем
+                    </h1>
+                    <p class="hero-text">
+                      Оставляйте незабываемые впечатления своими уникальными образами из натуральных тканей.
+                    </p>
+                    <p class="price">Соверши революцию в гардеробе прямо сейчас</p>
+                    <a href="#" class="btn btn-primary">К покупкам</a>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+      
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+     <!-- #collection -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Женское</h2>
+
+                <p class="card-text">Летящие ткани</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Купить</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/girloutfit.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Мужское</h2>
+
+                <p class="card-text">Удобные фасоны</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Купить</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/menoutfit.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Аксессуары</h2>
+
+                <p class="card-text">Всё для яркого образа</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Купить</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/acsesuares.jpg')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- #shop -->
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Лето будет незабываемым в наших вещах</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Посмотреть больше</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/outfit1.jpg" width="540" height="720" class="img-cover">
+
+                  <span class="badge" aria-label="34% off">-34%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">4500₽</del>
+
+                    <span class="span">2990₽</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Жилет из льна</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">449 отзывов</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/outfit2.jpg" width="540" height="720"  class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">4390₽</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Воздушное платье</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">351 отзывов</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/outfit3.jpg" width="540" height="720" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">5990₽</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Цветочное платье</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">468 отзывов</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/outfit4.jpg" width="540" height="720"  class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">3950₽</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Классическое поло</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">257 отзывов</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/outfit5.jpg" width="540" height="720" class="img-cover">
+
+                  <span class="badge" aria-label="34% off">-34%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">4500₽</del>
+
+                    <span class="span">2990₽</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Свободная рубашка</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">549 отзывов</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/outfit6.jpg" width="540" height="720" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">690₽</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Заколка в виде цветка</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">416 отзывов</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/outfit7.jpg" width="540" height="720" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">1490₽</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Панама</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">172 отзывов</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- #feature -->
+
+      <section class="section feature" id="feature" aria-label="feature" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">Концепция</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/concept1.jpg" width="204" height="236" class="card-icon">
+
+                <h3 class="h3 card-title">Eco-friendly</h3>
+
+                <p class="card-text">
+                  Мы стремимся к экологической устойчивости в каждом этапе производства, 
+                  чтобы обеспечить вам стильные и качественные товары, не нанося вреда окружающей среде.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/concept2.jpg" width="204" height="236" class="card-icon">
+
+                <h3 class="h3 card-title">Slow fashion</h3>
+
+                <p class="card-text">
+                  Мы уделяем особое внимание каждой детали и каждому этапу производства, чтобы создать продукцию, 
+                  которая будет долго радовать вас своим качеством и стилем.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/concept3.jpg" width="204" height="236" class="card-icon">
+
+                <h3 class="h3 card-title">Organic cotton</h3>
+
+                <p class="card-text">
+                  Наша цель - создание экологически чистой моды. Приобретая наши изделия из органического хлопка, 
+                  вы делаете выбор в пользу здоровья окружающей среды.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+  <!-- #footer  -->
+
+  <footer class="footer" id="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Контакты</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Ищите у себя в городе<a href="#" class="link">наши магазины</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+479 963 778 19 31</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">momentad@gmail.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Помощь</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Сделать покупку</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Оплата</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Доставка</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Обмен и возврат</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Следить за нами</p>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon> 
+              Youtube
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-vk"></ion-icon> 
+              В контакте
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+              Instagram
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Подписка</p>
+
+          <p class="newsletter-text">
+            Введите свой адрес электронной почты ниже, чтобы первыми узнавать о новых коллекциях.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Email" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Подписаться</button>
+          </form>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </footer>
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- swiper -->
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var swiper = new Swiper('.hero-swiper', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        spaceBetween: 0,
+      });
+    });
+  </script>
+    
+
+</body>
+
+</html>
