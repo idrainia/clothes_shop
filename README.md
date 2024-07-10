@@ -12,4 +12,12 @@
 5. Добавлены эффекты ховера на интерактивные элементы.
 
 6. Реализована карусель с прокруткой с помощью библиотеки SwiperJS в блоке с главным баннером.
-![alt text](screen.png)
+
+Скрины сайта:
+![alt text](screen1.png)
+
+![alt text](screen2.png)
+
+![alt text](screen3.png)
+
+![alt text](screen4.png)
