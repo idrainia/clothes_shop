@@ -14,7 +14,7 @@
 6. Реализована карусель с прокруткой с помощью библиотеки SwiperJS в блоке с главным баннером.
 
 Скрины сайта:
-![alt text](screen/screen1.png.png)
+![alt text](screen/screen1.png)
 
 ![alt text](screen/screen2.png)
 
